@@ -1,0 +1,17 @@
+﻿double num1, num2;
+double suma;
+double resta;
+double total;
+double total2;
+double divicing;
+Console.WriteLine("put the first number");
+num1 = double.Parse(Console.ReadLine());
+Console.WriteLine("place the second");
+num2 = double.Parse(Console.ReadLine());
+suma = num1 + num2;
+resta = num1 - num2;
+divicing = num2 / num1;
+total = resta + suma;
+total2 = divicing/total;
+Console.WriteLine("the result is" + total);
+Console.WriteLine("the second result is" + total2);
